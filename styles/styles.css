@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 10px;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: grey;
+    background-color: black;
+    opacity: 90%;
+    max-width: 1400px;
+}
+
+
+
+header.first-header {
+color: white;
+height: 100vh;
+background-position: center;
+position: relative;
+background-image: url(../images/landing-page.png);
+}
+
+div.center-page-header {
+    
+    font-weight: 100;
+    
+}
+
+ul.nav-bar {
+    color: white;
+    background-color: black;
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    padding-left: 0;
+}
+
+.nav-bar {
+    display: inline;
+    float: right;
+    padding: 8px;
+}
+
+div.main-title {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    font-size: 120px;
+    transform: rotate(46deg);
+}
+
+div.header-subsection {
+    font-size: 60px;
+    position: absolute;
+    left: 52%;
+    bottom: 40%;
+}
+
+
+div.scroll-text {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 47.5%;
+    font-size: 20px;
+} 
+
+header.about-me-header {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    font-weight: 100;
+}
+
+.traintracks-image {
+    max-width: 500px;
+    margin: 15px 20px;
+    float: left;
+    border-radius: 10%;
+    padding-right: 20px;
+}
+
+.about-me-container {
+    text-align: center;
+    position: relative;
+}
+
+.about-me-text {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 200;
+    margin-left: 50px;
+}
+
+.adobe-container {
+    display: inline-flex;
+    margin-left: 0;
+    float: left;
+  
+}
+
+.about-me-media-container {
+    position: relative;
+}
+
+.insta-box {
+    position: relative;
+}
+
+.instagram-icon {
+    display: inline;
+}
+
+
+
